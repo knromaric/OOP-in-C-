@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF4B714E-CCD5-4ADB-9AC5-1627F6C2EB93}</ProjectGuid>
+    <ProjectGuid>{2174A7FC-2066-4AC2-BAC7-BF44EC6543C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Database_Connection</RootNamespace>
-    <AssemblyName>Database Connection</AssemblyName>
+    <RootNamespace>WorkFlow_Engine</RootNamespace>
+    <AssemblyName>WorkFlow Engine</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbCommand.cs" />
-    <Compile Include="DbConnection.cs" />
-    <Compile Include="OracleConnection.cs" />
-    <Compile Include="DbConnectionApp.cs" />
+    <Compile Include="IActivity.cs" />
+    <Compile Include="EmailActivity.cs" />
+    <Compile Include="VideoActivity.cs" />
+    <Compile Include="Workflow.cs" />
+    <Compile Include="WorkflowEngine.cs" />
+    <Compile Include="WorkFlowEngineApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -11,7 +11,7 @@ namespace Database_Connection
         }
         public override void Open()
         {
-            Console.WriteLine("Closing Oracle connection...");
+            Console.WriteLine("Opening Oracle connection...");
         }
 
         public override void Close()

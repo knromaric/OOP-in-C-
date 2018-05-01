@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Database_Connection
 {
@@ -15,7 +12,7 @@ namespace Database_Connection
         }
         public override void Open()
         {
-            Console.WriteLine("Closing SQL connection...");
+            Console.WriteLine("Opening SQL connection...");
         }
 
         public override void Close()
