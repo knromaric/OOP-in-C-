@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace OOP_in_C_Sharp
+namespace StopWatch
 {
     class App
     {
@@ -9,11 +9,12 @@ namespace OOP_in_C_Sharp
         {
             Stopwatch sw = new Stopwatch();
 
-            Console.WriteLine("Start first time... ");
+            Console.WriteLine("Start the stopwatch");
             sw.Start();
             Thread.Sleep(3000);
             sw.Stop();
-           
+            Console.WriteLine("Stop the stopwatch");
+
             Console.WriteLine($"The duration : {sw.GetDuration().TotalSeconds} s");
            
             

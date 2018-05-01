@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stopwatch", "OOP in C Sharp\Stopwatch.csproj", "{4C7CC9DD-BA63-489C-8158-304DFAC589BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatch", "OOP in C Sharp\StopWatch.csproj", "{4C7CC9DD-BA63-489C-8158-304DFAC589BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverFlow Post", "StackOverFlow Post\StackOverFlow Post.csproj", "{B85B6EAA-B945-49EB-98A1-86A3DF318979}"
 EndProject

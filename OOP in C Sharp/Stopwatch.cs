@@ -1,6 +1,6 @@
 ﻿using System; 
 
-namespace OOP_in_C_Sharp
+namespace StopWatch
 {
     public class Stopwatch
     {
